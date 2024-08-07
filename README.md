@@ -1,5 +1,5 @@
 # dataportfolio
-My kind of exploratory teritory
+
 select
   category,
   round(sum(case when extract(year from order_date)=2021 then after_discount else 0 end),2) as nilai_transaksi_2021,
